@@ -1,0 +1,29 @@
+{
+  "include": 
+  [
+    {
+      "name": "16-18",
+      "ng_cli_major_version": "16",
+      "node_major_version": "18",
+      "latest": true
+    },
+    {
+      "name": "16-16",
+      "ng_cli_major_version": "16",
+      "node_major_version": "16",
+      "latest": false
+    },
+    {
+      "name": "15-18",
+      "ng_cli_major_version": "15",
+      "node_major_version": "18",
+      "latest": false
+    },
+    {
+      "name": "15-16",
+      "ng_cli_major_version": "15",
+      "node_major_version": "16",
+      "latest": false
+    }
+  ]
+}
