@@ -74,9 +74,9 @@ jobs:
         name: Tag and push images
         id: tag
         env: 
-          NODE_VERSION: ${{ steps.get-versions.outputs.ng_cli_version }}
+          NODE_VERSION: ${{ steps.get-versions.outputs.node_version }}
           PRETTY_TAG: ${{ matrix.name }}
-          NG_CLI_VERSION: ${{ steps.get-versions.outputs.node_version }}
+          NG_CLI_VERSION: ${{ steps.get-versions.outputs.ng_cli_version }}
         run: |
           {
             docker tag ${{ env.registry}}/${{ env.repository }}:${PRETTY_TAG} \
